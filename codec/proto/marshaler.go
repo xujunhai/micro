@@ -4,8 +4,8 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/util/buf"
+	"xmicro/codec"
+	"xmicro/util/buf"
 )
 
 // create buffer pool with 16 instances each preallocated with 256 bytes

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"sync"
 
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/api"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/watch"
+	"xmicro/registry/kubernetes/client"
+	"xmicro/registry/kubernetes/client/api"
+	"xmicro/registry/kubernetes/client/watch"
 )
 
 // Client ...

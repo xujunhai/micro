@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/client"
+	"xmicro/client"
 )
 
 type message struct {

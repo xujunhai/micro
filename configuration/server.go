@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"github.com/creasty/defaults"
 	perrors "github.com/pkg/errors"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/util/yaml"
+	"xmicro/common/constant"
+	"xmicro/util/yaml"
 )
 
 // ServerConfig is the default configuration of service provider

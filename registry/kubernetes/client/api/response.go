@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	log "gitlab.ziroom.com/rent-web/micro/logger"
+	log "xmicro/logger"
 )
 
 // Errors ...

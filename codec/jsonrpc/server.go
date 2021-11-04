@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
+	"xmicro/codec"
 )
 
 type serverCodec struct {

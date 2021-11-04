@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/codec"
+	"xmicro/registry"
 )
 
 type Options struct {

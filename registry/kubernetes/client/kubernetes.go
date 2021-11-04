@@ -1,6 +1,6 @@
 package client
 
-import "gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/watch"
+import "xmicro/registry/kubernetes/client/watch"
 
 // Kubernetes ...
 type Kubernetes interface {

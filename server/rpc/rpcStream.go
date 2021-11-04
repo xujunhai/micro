@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/codec"
+	"xmicro/server"
 )
 
 // Implements the Streamer interface

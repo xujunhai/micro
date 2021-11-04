@@ -1,7 +1,7 @@
 package component
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/service"
+	"xmicro/service"
 )
 
 var serviceInstance = make(map[string]service.Factory)

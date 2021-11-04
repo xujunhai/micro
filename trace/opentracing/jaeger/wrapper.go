@@ -10,11 +10,11 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/client"
-	"gitlab.ziroom.com/rent-web/micro/common/component"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/metadata"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/client"
+	"xmicro/common/component"
+	"xmicro/common/constant"
+	"xmicro/metadata"
+	"xmicro/server"
 )
 
 //trace wrapper

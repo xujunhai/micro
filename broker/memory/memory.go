@@ -4,16 +4,16 @@ package memory
 import (
 	"context"
 	"errors"
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/logger/core"
 	"math/rand"
 	"sync"
 	"time"
 
 	"github.com/google/uuid"
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	maddr "gitlab.ziroom.com/rent-web/micro/util/addr"
-	mnet "gitlab.ziroom.com/rent-web/micro/util/net"
+	"xmicro/broker"
+	"xmicro/logger"
+	maddr "xmicro/util/addr"
+	mnet "xmicro/util/net"
 )
 
 type memoryBroker struct {

@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"sync"
 
-	"gitlab.ziroom.com/rent-web/micro/client"
-	"gitlab.ziroom.com/rent-web/micro/errors"
+	"xmicro/client"
+	"xmicro/errors"
 )
 
 var (

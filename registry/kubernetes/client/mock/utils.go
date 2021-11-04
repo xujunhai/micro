@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/watch"
+	"xmicro/registry/kubernetes/client"
+	"xmicro/registry/kubernetes/client/watch"
 )
 
 type mockWatcher struct {

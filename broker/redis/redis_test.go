@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
+	"xmicro/broker"
 )
 
 func subscribe(t *testing.T, b broker.Broker, topic string, handle broker.Handler) broker.Subscriber {

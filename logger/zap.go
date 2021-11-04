@@ -2,8 +2,8 @@ package logger
 
 import (
 	"context"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/common/constant"
+	"xmicro/logger/core"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"

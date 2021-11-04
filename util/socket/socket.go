@@ -4,7 +4,7 @@ package socket
 import (
 	"io"
 
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/transport"
 )
 
 // Socket is our pseudo socket for transport.Socket

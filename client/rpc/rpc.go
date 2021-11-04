@@ -8,15 +8,15 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/client"
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	raw "gitlab.ziroom.com/rent-web/micro/codec/bytes"
-	"gitlab.ziroom.com/rent-web/micro/errors"
-	"gitlab.ziroom.com/rent-web/micro/metadata"
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	"gitlab.ziroom.com/rent-web/micro/util/buf"
-	"gitlab.ziroom.com/rent-web/micro/util/pool"
+	"xmicro/broker"
+	"xmicro/client"
+	"xmicro/codec"
+	raw "xmicro/codec/bytes"
+	"xmicro/errors"
+	"xmicro/metadata"
+	"xmicro/transport"
+	"xmicro/util/buf"
+	"xmicro/util/pool"
 )
 
 type rpcClient struct {

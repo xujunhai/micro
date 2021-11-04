@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/server"
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/broker"
+	"xmicro/registry"
+	"xmicro/server"
+	"xmicro/transport"
 )
 
 const (

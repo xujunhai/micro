@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
+	"xmicro/codec"
 )
 
 // Client is the interface used to make requests to services.

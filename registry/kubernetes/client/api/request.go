@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/watch"
+	"xmicro/registry/kubernetes/client/watch"
 )
 
 // Request is used to construct a http request for the k8s API.

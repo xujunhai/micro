@@ -6,10 +6,10 @@ import (
 	"strings"
 	"sync"
 
-	log "gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/watch"
+	log "xmicro/logger"
+	"xmicro/registry"
+	"xmicro/registry/kubernetes/client"
+	"xmicro/registry/kubernetes/client/watch"
 )
 
 type k8sWatcher struct {

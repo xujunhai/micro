@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/transport"
 )
 
 // Pool is an interface for connection pooling

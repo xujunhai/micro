@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/config"
+	"xmicro/config"
 )
 
 // Environment

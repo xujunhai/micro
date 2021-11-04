@@ -18,7 +18,7 @@
 package nacos
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common/component"
+	"xmicro/common/component"
 	"strings"
 	"sync"
 )
@@ -30,11 +30,11 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/config"
-	"gitlab.ziroom.com/rent-web/micro/config/parser"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/common"
+	"xmicro/common/constant"
+	"xmicro/config"
+	"xmicro/config/parser"
+	"xmicro/logger"
 )
 
 const (

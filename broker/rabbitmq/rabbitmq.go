@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/streadway/amqp"
-	"gitlab.ziroom.com/rent-web/micro/broker"
+	"xmicro/broker"
 )
 
 type rbroker struct {

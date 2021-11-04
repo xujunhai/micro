@@ -27,9 +27,9 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common/component"
-	"gitlab.ziroom.com/rent-web/micro/config"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/common/component"
+	"xmicro/config"
+	"xmicro/logger"
 )
 
 // CacheListener is file watcher

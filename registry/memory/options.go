@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/registry"
 )
 
 type servicesKey struct{}

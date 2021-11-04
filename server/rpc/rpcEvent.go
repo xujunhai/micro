@@ -1,8 +1,8 @@
 package rpc
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/broker"
+	"xmicro/transport"
 )
 
 // event is a broker event we handle on the server transport

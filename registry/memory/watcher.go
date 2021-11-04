@@ -3,7 +3,7 @@ package memory
 import (
 	"errors"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/registry"
 )
 
 type Watcher struct {

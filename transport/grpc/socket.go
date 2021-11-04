@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	pb "gitlab.ziroom.com/rent-web/micro/transport/grpc/proto"
+	"xmicro/transport"
+	pb "xmicro/transport/grpc/proto"
 	"google.golang.org/grpc"
 )
 

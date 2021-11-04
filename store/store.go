@@ -1,5 +1,5 @@
 // Package store is an interface for distributed data storage.
-// The design document is located at https://github.com/gitlab.ziroom.com/rent-web/micro/development/blob/master/design/framework/store.md
+// The design document is located at https://github.com/xmicro/development/blob/master/design/framework/store.md
 package store
 
 import (

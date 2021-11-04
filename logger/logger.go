@@ -2,7 +2,7 @@
 package logger
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/logger/core"
 	"os"
 )
 

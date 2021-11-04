@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
+	"xmicro/codec"
 )
 
 type clientCodec struct {

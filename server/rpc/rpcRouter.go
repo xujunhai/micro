@@ -12,10 +12,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	merrors "gitlab.ziroom.com/rent-web/micro/errors"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/codec"
+	merrors "xmicro/errors"
+	"xmicro/logger"
+	"xmicro/server"
 )
 
 var (

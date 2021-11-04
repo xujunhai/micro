@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	"gitlab.ziroom.com/rent-web/micro/util/buf"
+	"xmicro/util/buf"
 )
 
 var Json = jsoniter.ConfigFastest

@@ -10,9 +10,9 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/codec/json"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/broker"
+	"xmicro/codec/json"
+	"xmicro/logger"
 )
 
 type kBroker struct {

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	maddr "gitlab.ziroom.com/rent-web/micro/util/addr"
-	mnet "gitlab.ziroom.com/rent-web/micro/util/net"
+	"xmicro/transport"
+	maddr "xmicro/util/addr"
+	mnet "xmicro/util/net"
 )
 
 type memorySocket struct {

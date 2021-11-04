@@ -3,7 +3,7 @@ package memory
 import (
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/registry"
 )
 
 func serviceToRecord(s *registry.Service, ttl time.Duration) *record {

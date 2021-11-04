@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	"gitlab.ziroom.com/rent-web/micro/config/parser"
+	"xmicro/common"
+	"xmicro/config/parser"
 )
 
 // ////////////////////////////////////////

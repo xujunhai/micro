@@ -33,10 +33,10 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	cc "gitlab.ziroom.com/rent-web/micro/config"
-	"gitlab.ziroom.com/rent-web/micro/config/parser"
+	"xmicro/common"
+	"xmicro/common/constant"
+	cc "xmicro/config"
+	"xmicro/config/parser"
 )
 
 const (

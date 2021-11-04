@@ -2,9 +2,9 @@ package configuration
 
 import (
 	"fmt"
-	"gitlab.ziroom.com/rent-web/micro/client"
-	"gitlab.ziroom.com/rent-web/micro/common/component"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/client"
+	"xmicro/common/component"
+	"xmicro/server"
 
 	"os"
 	"strings"
@@ -12,13 +12,13 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
-	"gitlab.ziroom.com/rent-web/micro/service"
-	"gitlab.ziroom.com/rent-web/micro/service/rpc"
-	"gitlab.ziroom.com/rent-web/micro/trace/opentracing/jaeger"
-	"gitlab.ziroom.com/rent-web/micro/transport/grpc"
+	"xmicro/common/constant"
+	"xmicro/logger"
+	"xmicro/logger/core"
+	"xmicro/service"
+	"xmicro/service/rpc"
+	"xmicro/trace/opentracing/jaeger"
+	"xmicro/transport/grpc"
 )
 
 var (

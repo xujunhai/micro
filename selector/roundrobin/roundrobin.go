@@ -1,7 +1,7 @@
 package roundrobin
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/selector"
+	"xmicro/selector"
 )
 
 // NewSelector returns an initalised round robin selector

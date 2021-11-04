@@ -27,8 +27,8 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/common"
+	"xmicro/logger"
 )
 
 const (

@@ -1,12 +1,12 @@
 package rpc
 
 import (
-	mbroker "gitlab.ziroom.com/rent-web/micro/broker/memory"
-	"gitlab.ziroom.com/rent-web/micro/registry/memory"
-	tmem "gitlab.ziroom.com/rent-web/micro/transport/memory"
+	mbroker "xmicro/broker/memory"
+	"xmicro/registry/memory"
+	tmem "xmicro/transport/memory"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/codec"
+	"xmicro/server"
 )
 
 func newOptions(opt ...server.Option) server.Options {

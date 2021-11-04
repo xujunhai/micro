@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/config"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/config"
+	"xmicro/logger"
 )
 
 func callback(listener config.ConfigurationListener, _, _, dataId, data string) {

@@ -3,7 +3,7 @@ package trace
 
 import (
 	"context"
-	"gitlab.ziroom.com/rent-web/micro/metadata"
+	"xmicro/metadata"
 	"time"
 )
 

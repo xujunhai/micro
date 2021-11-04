@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	"gitlab.ziroom.com/rent-web/micro/transport/memory"
+	"xmicro/transport"
+	"xmicro/transport/memory"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

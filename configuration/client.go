@@ -8,9 +8,9 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/util/yaml"
+	"xmicro/common/constant"
+	"xmicro/logger"
+	"xmicro/util/yaml"
 )
 
 const (

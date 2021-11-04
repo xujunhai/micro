@@ -2,7 +2,7 @@ package noop
 
 import (
 	"github.com/google/uuid"
-	"gitlab.ziroom.com/rent-web/micro/auth"
+	"xmicro/auth"
 )
 
 func NewAuth(opts ...auth.Option) auth.Auth {

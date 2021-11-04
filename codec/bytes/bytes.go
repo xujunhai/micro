@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
+	"xmicro/codec"
 )
 
 type Codec struct {

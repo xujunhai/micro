@@ -38,7 +38,7 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
+	"xmicro/common/constant"
 )
 
 // role constant

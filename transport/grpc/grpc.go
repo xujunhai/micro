@@ -6,15 +6,15 @@ import (
 	"crypto/tls"
 	"net"
 
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	maddr "gitlab.ziroom.com/rent-web/micro/util/addr"
-	mnet "gitlab.ziroom.com/rent-web/micro/util/net"
-	mls "gitlab.ziroom.com/rent-web/micro/util/tls"
+	"xmicro/transport"
+	maddr "xmicro/util/addr"
+	mnet "xmicro/util/net"
+	mls "xmicro/util/tls"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "gitlab.ziroom.com/rent-web/micro/transport/grpc/proto"
+	pb "xmicro/transport/grpc/proto"
 )
 
 type grpcTransport struct {

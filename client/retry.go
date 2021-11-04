@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"gitlab.ziroom.com/rent-web/micro/errors"
+	"xmicro/errors"
 )
 
 // note that returning either false or a non-nil error will result in the call not being retried

@@ -3,13 +3,13 @@ package memory
 
 import (
 	"context"
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/logger/core"
 	"sync"
 	"time"
 
 	"github.com/google/uuid"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/logger"
+	"xmicro/registry"
 )
 
 var (

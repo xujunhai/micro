@@ -2,7 +2,7 @@
 package rpc
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/server"
 )
 
 var (

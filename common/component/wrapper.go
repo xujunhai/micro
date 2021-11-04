@@ -1,8 +1,8 @@
 package component
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/client"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/client"
+	"xmicro/server"
 )
 
 //wrapper

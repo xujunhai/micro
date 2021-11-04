@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
-	"gitlab.ziroom.com/rent-web/micro/errors"
-	"gitlab.ziroom.com/rent-web/micro/router"
+	"xmicro/errors"
+	"xmicro/router"
 )
 
 // LookupFunc is used to lookup routes for a service

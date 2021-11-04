@@ -3,22 +3,22 @@ package server
 import (
 	"context"
 	"crypto/tls"
-	mbroker "gitlab.ziroom.com/rent-web/micro/broker/memory"
-	"gitlab.ziroom.com/rent-web/micro/registry/memory"
-	tmem "gitlab.ziroom.com/rent-web/micro/transport/memory"
+	mbroker "xmicro/broker/memory"
+	"xmicro/registry/memory"
+	tmem "xmicro/transport/memory"
 	"sync"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/auth"
+	"xmicro/auth"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
+	"xmicro/broker"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/trace"
+	"xmicro/codec"
+	"xmicro/trace"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/registry"
 
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/transport"
 )
 
 type Options struct {

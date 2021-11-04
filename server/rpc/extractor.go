@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/registry"
 )
 
 //max 3 deep

@@ -17,12 +17,12 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	"gitlab.ziroom.com/rent-web/micro/common/component"
-	mconstant "gitlab.ziroom.com/rent-web/micro/common/constant"
-	mlogger "gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	mnet "gitlab.ziroom.com/rent-web/micro/util/net"
+	"xmicro/common"
+	"xmicro/common/component"
+	mconstant "xmicro/common/constant"
+	mlogger "xmicro/logger"
+	"xmicro/registry"
+	mnet "xmicro/util/net"
 )
 
 type nacosRegistry struct {

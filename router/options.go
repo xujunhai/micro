@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/registry"
 )
 
 // Options are router options

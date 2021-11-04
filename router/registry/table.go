@@ -1,13 +1,13 @@
 package registry
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/logger/core"
 	"sync"
 	"time"
 
 	"github.com/google/uuid"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/router"
+	"xmicro/logger"
+	"xmicro/router"
 )
 
 // table is an in-memory routing table

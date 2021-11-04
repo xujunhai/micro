@@ -8,9 +8,9 @@ import (
 	"os"
 	"path"
 
-	log "gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/api"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client/watch"
+	log "xmicro/logger"
+	"xmicro/registry/kubernetes/client/api"
+	"xmicro/registry/kubernetes/client/watch"
 )
 
 var (

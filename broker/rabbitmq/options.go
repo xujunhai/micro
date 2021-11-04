@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"context"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
+	"xmicro/broker"
 )
 
 type durableQueueKey struct{}

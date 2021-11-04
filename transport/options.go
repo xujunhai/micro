@@ -3,7 +3,7 @@ package transport
 import (
 	"context"
 	"crypto/tls"
-	"gitlab.ziroom.com/rent-web/micro/codec"
+	"xmicro/codec"
 	"time"
 )
 

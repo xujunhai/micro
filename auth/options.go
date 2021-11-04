@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/store"
+	"xmicro/store"
 )
 
 func NewOptions(opts ...Option) Options {

@@ -20,8 +20,8 @@ package apollo
 import (
 	"github.com/zouyx/agollo/v3"
 	"github.com/zouyx/agollo/v3/storage"
-	"gitlab.ziroom.com/rent-web/micro/config"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/config"
+	"xmicro/logger"
 	"gopkg.in/yaml.v2"
 )
 

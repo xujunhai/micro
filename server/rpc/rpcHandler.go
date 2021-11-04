@@ -3,8 +3,8 @@ package rpc
 import (
 	"reflect"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/registry"
+	"xmicro/server"
 )
 
 type rpcHandler struct {

@@ -30,11 +30,11 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	"gitlab.ziroom.com/rent-web/micro/common/component"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	mregistry "gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/common"
+	"xmicro/common/component"
+	"xmicro/common/constant"
+	"xmicro/logger"
+	mregistry "xmicro/registry"
 )
 
 // RegistryConfig is the configuration of the registry center

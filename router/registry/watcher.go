@@ -3,7 +3,7 @@ package registry
 import (
 	"sync"
 
-	"gitlab.ziroom.com/rent-web/micro/router"
+	"xmicro/router"
 )
 
 // tableWatcher implements routing table Watcher

@@ -1,7 +1,7 @@
 package random
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/selector"
+	"xmicro/selector"
 	"math/rand"
 )
 

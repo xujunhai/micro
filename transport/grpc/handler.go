@@ -3,10 +3,10 @@ package grpc
 import (
 	"runtime/debug"
 
-	"gitlab.ziroom.com/rent-web/micro/errors"
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	pb "gitlab.ziroom.com/rent-web/micro/transport/grpc/proto"
+	"xmicro/errors"
+	"xmicro/logger"
+	"xmicro/transport"
+	pb "xmicro/transport/grpc/proto"
 	"google.golang.org/grpc/peer"
 )
 

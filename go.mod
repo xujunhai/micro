@@ -1,4 +1,4 @@
-module gitlab.ziroom.com/rent-web/micro
+module xmicro
 
 go 1.14
 

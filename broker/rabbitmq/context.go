@@ -3,8 +3,8 @@ package rabbitmq
 import (
 	"context"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/broker"
+	"xmicro/server"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

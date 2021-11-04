@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
+	"xmicro/broker"
 )
 
 func TestMemoryBroker(t *testing.T) {

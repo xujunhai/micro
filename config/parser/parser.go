@@ -18,8 +18,8 @@
 package parser
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common"
-	log "gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/common"
+	log "xmicro/logger"
 	"strconv"
 	"strings"
 )
@@ -31,7 +31,7 @@ import (
 )
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
+	"xmicro/common/constant"
 )
 
 const (

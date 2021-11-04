@@ -3,16 +3,16 @@ package rpc
 
 import (
 	"context"
-	mbroker "gitlab.ziroom.com/rent-web/micro/broker/memory"
-	"gitlab.ziroom.com/rent-web/micro/client"
-	rpcClient "gitlab.ziroom.com/rent-web/micro/client/rpc"
-	"gitlab.ziroom.com/rent-web/micro/common/component"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
-	"gitlab.ziroom.com/rent-web/micro/registry/memory"
-	"gitlab.ziroom.com/rent-web/micro/server"
-	rpcServer "gitlab.ziroom.com/rent-web/micro/server/rpc"
-	"gitlab.ziroom.com/rent-web/micro/service"
-	tmem "gitlab.ziroom.com/rent-web/micro/transport/memory"
+	mbroker "xmicro/broker/memory"
+	"xmicro/client"
+	rpcClient "xmicro/client/rpc"
+	"xmicro/common/component"
+	"xmicro/common/constant"
+	"xmicro/registry/memory"
+	"xmicro/server"
+	rpcServer "xmicro/server/rpc"
+	"xmicro/service"
+	tmem "xmicro/transport/memory"
 )
 
 type rpcApp struct {

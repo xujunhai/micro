@@ -2,18 +2,18 @@ package service
 
 import (
 	"context"
-	"gitlab.ziroom.com/rent-web/micro/registry/memory"
+	"xmicro/registry/memory"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	mbroker "gitlab.ziroom.com/rent-web/micro/broker/memory"
-	"gitlab.ziroom.com/rent-web/micro/client"
-	rpcClient "gitlab.ziroom.com/rent-web/micro/client/rpc"
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/server"
-	rpcServer "gitlab.ziroom.com/rent-web/micro/server/rpc"
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	tmem "gitlab.ziroom.com/rent-web/micro/transport/memory"
+	"xmicro/broker"
+	mbroker "xmicro/broker/memory"
+	"xmicro/client"
+	rpcClient "xmicro/client/rpc"
+	"xmicro/registry"
+	"xmicro/server"
+	rpcServer "xmicro/server/rpc"
+	"xmicro/transport"
+	tmem "xmicro/transport/memory"
 )
 
 type Options struct {

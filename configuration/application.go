@@ -2,7 +2,7 @@ package configuration
 
 import (
 	"github.com/creasty/defaults"
-	"gitlab.ziroom.com/rent-web/micro/common/constant"
+	"xmicro/common/constant"
 )
 
 // Only support one service application, so need only one port to export

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/registry/kubernetes/client"
+	"xmicro/registry"
+	"xmicro/registry/kubernetes/client"
 )
 
 type kregistry struct {

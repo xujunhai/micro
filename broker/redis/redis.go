@@ -5,10 +5,10 @@ import (
 	"context"
 	"errors"
 	"github.com/go-redis/redis/v8"
-	"gitlab.ziroom.com/rent-web/micro/broker"
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/codec/json"
-	"gitlab.ziroom.com/rent-web/micro/logger"
+	"xmicro/broker"
+	"xmicro/codec"
+	"xmicro/codec/json"
+	"xmicro/logger"
 )
 
 // publication is an internal publication for the Redis broker.

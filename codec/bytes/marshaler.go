@@ -1,7 +1,7 @@
 package bytes
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/codec"
+	"xmicro/codec"
 )
 
 type Marshaler struct{}

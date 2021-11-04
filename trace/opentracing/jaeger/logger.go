@@ -1,8 +1,8 @@
 package jaeger
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/logger"
+	"xmicro/logger/core"
 )
 
 //adapter jaeger logger interface

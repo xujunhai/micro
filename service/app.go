@@ -2,8 +2,8 @@
 package service
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/client"
-	"gitlab.ziroom.com/rent-web/micro/server"
+	"xmicro/client"
+	"xmicro/server"
 )
 
 // service is an interface for distributed apps

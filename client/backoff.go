@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/util/backoff"
+	"xmicro/util/backoff"
 )
 
 type BackoffFunc func(ctx context.Context, req Request, attempts int) (time.Duration, error)

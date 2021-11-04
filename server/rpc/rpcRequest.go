@@ -3,9 +3,9 @@ package rpc
 import (
 	"bytes"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	"gitlab.ziroom.com/rent-web/micro/util/buf"
+	"xmicro/codec"
+	"xmicro/transport"
+	"xmicro/util/buf"
 )
 
 type rpcRequest struct {

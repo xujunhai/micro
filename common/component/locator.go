@@ -1,8 +1,8 @@
 package component
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/config"
-	"gitlab.ziroom.com/rent-web/micro/registry"
+	"xmicro/config"
+	"xmicro/registry"
 )
 
 // component manager

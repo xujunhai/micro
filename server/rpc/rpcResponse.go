@@ -3,8 +3,8 @@ package rpc
 import (
 	"net/http"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/codec"
+	"xmicro/transport"
 )
 
 type rpcResponse struct {

@@ -1,8 +1,8 @@
 package rpc
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/codec"
+	"xmicro/transport"
 )
 
 type rpcResponse struct {

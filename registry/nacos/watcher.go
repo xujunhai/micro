@@ -7,8 +7,8 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/model"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	mnet "gitlab.ziroom.com/rent-web/micro/util/net"
+	"xmicro/registry"
+	mnet "xmicro/util/net"
 )
 
 type nacosWatcher struct {

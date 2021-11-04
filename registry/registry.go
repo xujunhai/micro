@@ -3,7 +3,7 @@ package registry
 
 import (
 	"errors"
-	"gitlab.ziroom.com/rent-web/micro/common"
+	"xmicro/common"
 )
 
 const (

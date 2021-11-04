@@ -5,15 +5,15 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	raw "gitlab.ziroom.com/rent-web/micro/codec/bytes"
-	"gitlab.ziroom.com/rent-web/micro/codec/grpc"
-	"gitlab.ziroom.com/rent-web/micro/codec/json"
-	"gitlab.ziroom.com/rent-web/micro/codec/jsonrpc"
-	"gitlab.ziroom.com/rent-web/micro/codec/proto"
-	"gitlab.ziroom.com/rent-web/micro/codec/protorpc"
-	"gitlab.ziroom.com/rent-web/micro/transport"
-	"gitlab.ziroom.com/rent-web/micro/util/buf"
+	"xmicro/codec"
+	raw "xmicro/codec/bytes"
+	"xmicro/codec/grpc"
+	"xmicro/codec/json"
+	"xmicro/codec/jsonrpc"
+	"xmicro/codec/proto"
+	"xmicro/codec/protorpc"
+	"xmicro/transport"
+	"xmicro/util/buf"
 )
 
 type rpcCodec struct {

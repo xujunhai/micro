@@ -2,19 +2,19 @@ package client
 
 import (
 	"context"
-	mbroker "gitlab.ziroom.com/rent-web/micro/broker/memory"
-	tmem "gitlab.ziroom.com/rent-web/micro/transport/memory"
+	mbroker "xmicro/broker/memory"
+	tmem "xmicro/transport/memory"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/broker"
+	"xmicro/broker"
 
-	"gitlab.ziroom.com/rent-web/micro/codec"
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/router"
-	regRouter "gitlab.ziroom.com/rent-web/micro/router/registry"
-	"gitlab.ziroom.com/rent-web/micro/selector"
-	"gitlab.ziroom.com/rent-web/micro/selector/roundrobin"
-	"gitlab.ziroom.com/rent-web/micro/transport"
+	"xmicro/codec"
+	"xmicro/registry"
+	"xmicro/router"
+	regRouter "xmicro/router/registry"
+	"xmicro/selector"
+	"xmicro/selector/roundrobin"
+	"xmicro/transport"
 )
 
 type Options struct {

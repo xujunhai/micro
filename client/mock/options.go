@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"gitlab.ziroom.com/rent-web/micro/client"
+	"xmicro/client"
 )
 
 // Response sets the response methods for a service

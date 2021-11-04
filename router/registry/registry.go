@@ -2,14 +2,14 @@ package registry
 
 import (
 	"fmt"
-	"gitlab.ziroom.com/rent-web/micro/logger/core"
+	"xmicro/logger/core"
 	"strings"
 	"sync"
 	"time"
 
-	"gitlab.ziroom.com/rent-web/micro/logger"
-	"gitlab.ziroom.com/rent-web/micro/registry"
-	"gitlab.ziroom.com/rent-web/micro/router"
+	"xmicro/logger"
+	"xmicro/registry"
+	"xmicro/router"
 )
 
 var (

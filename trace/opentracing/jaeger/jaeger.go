@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/uber/jaeger-client-go/config"
-	"gitlab.ziroom.com/rent-web/micro/trace"
+	"xmicro/trace"
 	"io"
 	"net/url"
 	"time"
